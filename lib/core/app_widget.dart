@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:web/Page/home_page.dart';
+import 'package:web/Page/Responsividade_row_column.dart';
 
 class MyApp extends StatelessWidget {
   @override
@@ -9,7 +9,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: ResponsividadeMedia(title: 'Responsividade'),
+        // home: ResponsividadeMedia(title: 'Responsividade'),
+        home: ResponsividadeRowColumn(title: 'Responsividade Column e Row'),
         debugShowCheckedModeBanner: false);
   }
 }
